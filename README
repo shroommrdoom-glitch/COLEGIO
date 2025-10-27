@@ -1,0 +1,37 @@
+# 🎓 Sistema de Gestión - Colegio
+
+Sistema web desarrollado en PHP para la gestión y visualización de registros de alumnos almacenados en una base de datos AlwaysData.
+
+## 📋 Descripción del Proyecto
+
+Este proyecto muestra 100 registros de una base de datos MySQL hospedada en AlwaysData, presentando información detallada de estudiantes.
+
+## 🚀 Características
+
+- ✅ Conexión a base de datos AlwaysData
+- ✅ Visualización de 100 registros
+- ✅ Diseño responsive y moderno
+- ✅ Indicador visual de estado de conexión
+- ✅ Estadísticas generales
+- ✅ Promedios coloreados según rendimiento
+
+## 📦 Instalación
+
+1. Clonar el repositorio en `C:\xampp\htdocs\`
+2. Copiar `conexion.example.php` y renombrar a `conexion.php`
+3. Editar `conexion.php` con tus credenciales de AlwaysData
+4. Iniciar Apache en XAMPP
+5. Visitar `http://localhost/Colegio/COLEGIO`
+
+## 🗄️ Estructura de la Base de Datos
+
+Tabla: `personas`
+- id, nombre, apellido, correo, telefono, fecha_nacimiento, ciudad, promedio
+
+## 👨‍💻 Autor
+
+Proyecto educativo - Octubre 2025
+
+## 🔒 Seguridad
+
+El archivo `conexion.php` con credenciales NO está incluido en el repositorio.
